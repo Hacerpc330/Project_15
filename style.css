@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forma {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(185, 65, 49);
+}
+h1 {
+    text-align: center;
+    font-family: 'Fruktur', cursive;
+}
+form {
+    width: 900px;
+    height: 500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    -webkit-box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5); 
+    box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5);
+}
+.info {
+    width: 350px;
+    height: 330px;   
+        background-color: rgb(124, 166, 185);
+    border-radius: 25px;
+    -webkit-box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5); 
+    box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5);
+}
+.box_info{
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    
+}
+fieldset {
+    border-radius: 20px;
+    background-color: rgb(124, 166, 185);
+    border: none;
+    -webkit-box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5); 
+    box-shadow: 8px -6px 12px -5px rgba(0,0,0,0.5);
+}
+legend {
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Zen Antique', serif;
+    border-radius: 10px;
+    background-color: rgb(124, 166, 185);
+    border: 1px solid black;
+}
+.user_self {
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 20px;
+}
+.user_text {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.user_text p{
+    font-size: 18px;
+    font-family: 'Zen Antique', serif;  
+}
+.user_text i{
+    font-size: 70px;
+    margin-top: 20px;
+}
+.box_info div {
+    width: 250px;
+    margin: 15px auto;
+}
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+            text-align: center;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 20px;
+}
+.button {
+    height: 100px;
+    padding-top: 30px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    -webkit-box-shadow: 6px 3px 15px -1px rgba(0,0,0,0.97); 
+    box-shadow: 6px 3px 15px -1px rgba(0,0,0,0.97);
+}
